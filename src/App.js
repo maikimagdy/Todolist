@@ -7,16 +7,7 @@ import GoalApp from "./GoalApp/GoalApp";
 function App() {
   return (
     <div className="h-full">
-      {/* <Allapp />
-      <ReactPlayer
-        url={"https://www.twitch.tv/lolybntgamer"}
-        controls={true}
-        width={300}
-        height={200}
-        volume={0}
-      /> */}
-      {/* <Calc /> */}
-      <GoalApp />
+      <Allapp />
     </div>
   );
 }
