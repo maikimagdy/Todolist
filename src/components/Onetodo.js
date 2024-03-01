@@ -1,5 +1,4 @@
 import { Button } from "@mui/material";
-import React, { useState } from "react";
 
 function Onetodo({ arrs, setarrs }) {
   const handledel = (e) => {
@@ -13,7 +12,7 @@ function Onetodo({ arrs, setarrs }) {
   const show = arrs
     .sort((a, b) => a.done - b.done)
     .map((e) => (
-      <div className="shadow-xl w-full flex justify-between gap-3 p-3 m-3 text-xl font-bold">
+      <div className="shadow-xl w-2/5 rounded-lg flex justify-between gap-3 p-3 mb-3 text-xl font-bold">
         <p onClick={() => handlecheck(e.name)}>
           {" "}
           {e.done ? <del> {e.name} </del> : e.name}
@@ -28,7 +27,11 @@ function Onetodo({ arrs, setarrs }) {
       </div>
     ));
 
-  return <div className="mt-16 w-1/3 h-48">{show}</div>;
+  return (
+    <div className="mt-16 flex justify-center flex-col items-center w-full ">
+      {show}
+    </div>
+  );
 }
 
 export default Onetodo;
