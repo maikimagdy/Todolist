@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Frontend Developer Internship Task Submission
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task: Interactive Todo List
 
-## Available Scripts
+### Project Overview:
+This project is an interactive todo list application developed as part of the Frontend Developer Internship task at Meta Scifor Technologies Pvt Ltd. Users can add new tasks, mark tasks as completed, and delete tasks. The application also utilizes local storage to persist tasks even after page refresh.
 
-In the project directory, you can run:
+### Technologies Used:
+- React.js
+- Tailwind CSS
+- Material-UI (MUI)
+-Css
+-HTML
+-JavaScript
 
-### `npm start`
+### How to Run the Project:
+1. Clone this repository to your local machine using the following command:
+git clone <https://github.com/maikimagdy/Todolist>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+css
+Copy code
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
+cd todo
 
-### `npm test`
+arduino
+Copy code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies using npm:
+npm install
 
-### `npm run build`
+markdown
+Copy code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+markdown
+Copy code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-### `npm run eject`
+### Features:
+- Add new tasks: Users can add new tasks to the todo list.
+- Mark tasks as completed: Users can mark tasks as completed by clicking on them.
+- Delete tasks: Users can delete tasks from the todo list.
+- Counter: a counter at the footer side that counts all todos and completed todos.
+- Local storage: Tasks are stored locally, ensuring persistence even after page refresh.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Project Structure:
+- `src/`: Contains the source code for the todo list application.
+- `components/`: Contains React components for the todo list.
+- `App.js`: Main React component.
+- `index.js`: Entry point of the application.
+- `public/`: Contains public assets and HTML file.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Deadline for Submission:
+March 02, 2024
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contact Information:
+For any questions or clarifications, please contact:
+Kiran Kishore
+HR Manager
+Meta Scifor Technologies Pvt. Ltd.
+Email: careers@scifortechnologies.com
+Phone: +91 62351 87933
+Website: www.scifortechnologies.com
+Address: 7th Phase JP Nagar, Bangalore - 560078.
