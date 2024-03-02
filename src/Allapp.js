@@ -6,7 +6,7 @@ import Foot from "./components/Foot";
 function Allapp() {
   const [arr, setArr] = useState(() => {
     const storedArr = JSON.parse(window.localStorage.getItem("Array"));
-    return storedArr;
+    return storedArr || [];
   });
   const [val, setVal] = useState({
     name: "",
