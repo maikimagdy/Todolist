@@ -6,8 +6,9 @@ import Foot from "./components/Foot";
 function Allapp() {
   const [arr, setArr] = useState(() => {
     const storedArr = JSON.parse(window.localStorage.getItem("Array"));
-    return storedArr || [];
+    return storedArr;
   });
+
   const [val, setVal] = useState({
     name: "",
     done: false,
@@ -21,6 +22,7 @@ function Allapp() {
   useEffect(() => {
     window.localStorage.setItem("Array", JSON.stringify(arr));
   }, [arr]);
+
   return (
     <div className="h-full flex justify-between flex-col">
       <Head />
